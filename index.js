@@ -50,9 +50,12 @@ module.exports = {
   },
 
   initializeAnalytics: function (event) {
+    OpearloAnalytics.initializeAnalytics( this.config.OPEARLO_USER_ID, this.config.OPEARLO_VOICE_APP_NAME, event.session);
+    /*
     if ( event.session.new ) {
       OpearloAnalytics.initializeAnalytics( this.config.OPEARLO_USER_ID, this.config.OPEARLO_VOICE_APP_NAME, event.session);
     }
+    */
   },
 
   registerVoiceEvents: function (event) {

@@ -1,6 +1,6 @@
 {
   "name": "opearlo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Easily integrate opearlo-analytics into your Alexa bot.",
   "main": "index.js",
   "author": "Dhruv Kumar Jha",
