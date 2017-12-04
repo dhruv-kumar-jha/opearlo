@@ -1,0 +1,12 @@
+{
+  "name": "opearlo",
+  "version": "0.1.0",
+  "description": "Easily integrate opearlo-analytics into your Alexa bot.",
+  "main": "index.js",
+  "author": "Dhruv Kumar Jha",
+  "license": "MIT",
+  "repository": "https://github.com/dhruv-kumar-jha/opearlo.git",
+  "dependencies": {
+    "opearlo-analytics": "^0.2.5"
+  }
+}
